@@ -12,6 +12,14 @@
 
 }
 
+.offers {
+    width: 950px;
+    /* border: 1px solid tomato; */
+    margin: 0 auto;
+    /* ✅ center the section */
+
+}
+
 .container {
     width: 736px;
 }
@@ -50,7 +58,7 @@
 
 
 
-.container .shop {
+.shop {
     width: 203px;
     height: 47px;
     border-radius: 8px;
@@ -60,6 +68,80 @@
     font-family: Work Sans;
     display: block;
     margin: 0 auto;
+}
+
+.brand-sub-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.brand-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.pizza,
+.burger,
+.kachchi {
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.restaurants {
+    display: flex;
+    justify-content: space-between;
+    /* OR use gap */
+    /* gap: 30px; */
+    /* optional, modern approach */
+}
+
+.pizza p,
+.kachchi p,
+.burger p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.pizza button,
+.kachchi button,
+.burger button {
+    padding: 8px 16px;
+    margin: 15px 0px;
+    /* or adjust as needed */
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    border: none;
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
 
 
+.pizza img,
+.kachchi img,
+.burger img {
+    width: 306px;
 }
