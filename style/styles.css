@@ -145,3 +145,61 @@
 .burger img {
     width: 306px;
 }
+
+.about {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.icon img {
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    left: 0;
+    top: 0;
+}
+
+.food-container {
+    display: flex;
+}
+
+.about-title-container {
+    width: 598px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-text {
+    margin: 26px 0px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+
+}
